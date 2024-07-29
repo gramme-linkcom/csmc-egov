@@ -1,0 +1,240 @@
+main {
+    height: fit-content;
+  }
+
+.img-covor{
+    width: 100%;
+    position: relative;
+    background:rgb(49, 0, 109);
+    aspect-ratio:1920/616;
+    max-height: 250px;
+    min-height: 150px;
+}
+
+.img-covor h1{
+    font-family: LineSeed_R;
+    font-size: 1.8rem;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    color: white;
+    width: max-content;
+}
+
+.img-covor h3{
+    position: relative;
+    top: 30px;
+    font-size: 1rem;
+    left: 50px;
+    color: white;
+    width: max-content;
+}
+
+.img-covor a{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    color: white;  
+    font-size: 1.3rem;
+    background: rgb(65, 105, 225); 
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: fit-content;
+    transition: .3s;
+}
+
+.img-covor a:hover{
+    box-shadow:0 10px 25px 0 rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    transform: translateY(2px);
+}
+
+.content h1{
+    font-size: 1.7rem;
+}
+
+.explanation{
+    display: flex;
+    justify-content:space-between;
+}
+
+.explanation li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+}
+
+.explanation img{
+    width: 50%;
+    min-width: 100px;
+}
+
+.title_about-egov{
+    color: white;
+    background: rgb(57, 98, 248);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 3px 30px;
+    width: fit-content;
+}
+
+.explanation-div{
+    top: 0px;
+    padding-top: 10px;
+    width: 100%;
+    background: #F5F6F8;
+}
+
+.explanation-about{
+    width: 95%;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+.content_macro{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    transition: .5s;
+    text-align: center;
+    transform: translateX(-10px);
+}
+
+.item.show{
+    color: rgba(0, 0, 0, 1);
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.item.show .step-mark{
+    background: rgb(57, 98, 248);
+    margin: 0 auto;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 1.9rem;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.steps{
+    margin-top: 20px;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.item.show .steps-over-two::before{
+    content: '';
+    display: block;
+    height: 50px;
+    width: 2px;
+    margin: 0 auto;
+    background-color: #707070;
+    margin-bottom: 10px;
+}
+
+.steps-over-two{
+    margin-top: 10px;
+}
+
+.link_start{
+    margin: 20px auto;
+    padding: 10px 30px;
+    width: 80%;
+    text-align: center;
+    background: rgb(57, 98, 248);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.link_start:hover{
+    box-shadow:0 10px 25px 0 rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    transform: translateY(2px);
+}
+
+
+a{
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+}
+
+.correspondence-margin{
+    margin-top: 20px;
+    padding: 20px 0px;
+    background: #F5F6F8;
+    width:100%;
+    text-align: center;
+}
+
+.correspondence{
+    width: 95%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 700px){
+    .img-covor h1{
+        top: 20px;
+        left: 20px;
+        font-size: 1.1rem;
+    }
+    
+    .img-covor h3{
+        top: 20px;
+        left: 20px;
+        font-size: .7rem;
+    }
+    
+    .img-covor a{
+        top: 30px;
+        left: 20px;
+        font-size: .9rem;
+        padding: 2px 20px;
+    }
+    
+    .img-covor a:hover{
+        -webkit-tap-highlight-color: transparent;
+        box-shadow:0 10px 25px 0 rgba(0, 0, 0, .7);
+        border-radius: 10px;
+        transform: translateY(2px);
+    }
+    
+    .content h1{
+        font-size: 1.3rem;
+    }
+
+    .explanation h3{
+        font-size: 1.3rem;
+    }
+
+    .explanation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .explanation li{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .explanation img{
+        width:35%;
+    }
+    .content_macro h1,.correspondence h1{
+        font-size: 1.2rem;
+    }
+    footer {
+        font-size: .7rem;
+    }
+}
