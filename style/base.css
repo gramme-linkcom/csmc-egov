@@ -43,12 +43,12 @@ main {
 }
 
 footer {
-  background-color: #24242456;
+  background-color: #242424;
   color: #fff;
   height: 300px;
   padding: 40px;
   text-align: left;
-  text-shadow: 3px 3px 3px #808080;
+  font-size: .7rem;
 }
 /* --- 全体のBOX定義 ---------------------------------------- */
 .notice-warning{
