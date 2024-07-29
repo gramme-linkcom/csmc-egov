@@ -166,6 +166,7 @@ main {
 
 
 a{
+    -webkit-tap-highlight-color: transparent;
     color: white;
 }
 
