@@ -1,0 +1,65 @@
+#header {
+  position: fixed;
+  background: #252525;
+  border-radius: 25px 25px 25px 25px;
+  height: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: .3s cubic-bezier(.4, 0, .2, 1);
+  top: 10px;
+  width: 90%;
+  z-index: 199999;
+}
+
+.header-scrolled{
+  box-shadow:0 10px 25px 0 rgba(0, 0, 0, .7);
+}
+
+.header-margin{
+  height: 80px;
+  background: #252525;
+}
+
+.header-logo {
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 3%;
+  
+}
+
+.head-animation {
+  transform: translateY(-100%);
+}
+
+main {
+  font-family: "LineSeed_B";
+  position: relative;
+  background-color: white;
+  min-height: 1080px;
+  height: 1300px;
+  max-height: fit-content;
+}
+
+footer {
+  background-color: #24242456;
+  color: #fff;
+  height: 300px;
+  padding: 40px;
+  text-align: left;
+  text-shadow: 3px 3px 3px #808080;
+}
+/* --- 全体のBOX定義 ---------------------------------------- */
+.notice-warning{
+  width: fit-content;
+  margin: 0 auto;
+  max-width: 90%;
+}
+.notice-warning-text{
+  color: #D23F3A;
+}
+
+.notice-warning-margin{
+  background: #FAEBE8;
+}
